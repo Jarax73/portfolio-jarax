@@ -1,21 +1,21 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Jared Kapila portfolio',
+  title: "Jared Kapila portfolio",
   description: "Une idée de ce que j'ai pu faire",
-}
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='bg-slate-900 text-slate-400'>
+    <html lang="en" className="bg-slate-900 text-slate-400">
       <body className={inter.className}>
-        <div className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0'>
+        <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
           {children}
         </div>
       </body>
     </html>
-  )
+  );
 }
