@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Nav from "./Nav";
 import SocialMedias from "./SocialMedias";
 
@@ -10,8 +11,9 @@ export default function Header() {
       <h2 className="mt-3 text-lg font-medium trackng-tight text-slate-200 sm:text-xl">
         Développeur web et mobile
       </h2>
-      <p className="mt-4 text-slate-400">
-        Je conçois des applications web et mobiles
+      <p className="mt-4 max-w-xs leading-normal">
+        Je conçois des applications web et mobiles accessibles pour tous types
+        d'écrans.
       </p>
       <Nav />
       <SocialMedias />
