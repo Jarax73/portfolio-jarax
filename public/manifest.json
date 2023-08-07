@@ -4,8 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "portfolio-jarax",
-  "short_name": "portfolio-jarax",
+  "name": "Kapila Jared-Alexandre",
+  "short_name": "JA Kap's",
+  "id": "/",
   "description": "A pwa of my portfolio",
   "icons": [
     {

@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Jared Kapila portfolio",
   description: "Une idée de ce que j'ai pu faire",
+  manifest: "/manifest.json",
+  icons: { apple: "/icon.png", android: "/icon.png" },
+  themeColor: "#0f172a",
 };
 
 export default function RootLayout({ children }) {
