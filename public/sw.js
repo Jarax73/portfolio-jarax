@@ -1,8 +1,8 @@
 if (!self.define) {
   let e,
     s = {};
-  const a = (a, n) => (
-    (a = new URL(a + ".js", n).href),
+  const a = (a, i) => (
+    (a = new URL(a + ".js", i).href),
     s[a] ||
       new Promise((s) => {
         if ("document" in self) {
@@ -15,16 +15,16 @@ if (!self.define) {
         return e;
       })
   );
-  self.define = (n, c) => {
-    const i =
+  self.define = (i, n) => {
+    const c =
       e ||
       ("document" in self ? document.currentScript.src : "") ||
       location.href;
-    if (s[i]) return;
+    if (s[c]) return;
     let t = {};
-    const f = (e) => a(e, i),
-      o = { module: { uri: i }, exports: t, require: f };
-    s[i] = Promise.all(n.map((e) => o[e] || f(e))).then((e) => (c(...e), t));
+    const r = (e) => a(e, c),
+      o = { module: { uri: c }, exports: t, require: r };
+    s[c] = Promise.all(i.map((e) => o[e] || r(e))).then((e) => (n(...e), t));
   };
 }
 define(["./workbox-7c2a5a06"], function (e) {
@@ -38,55 +38,47 @@ define(["./workbox-7c2a5a06"], function (e) {
       [
         {
           url: "/_next/app-build-manifest.json",
-          revision: "af5b458476745d77702f9166397c1272",
-        },
-        {
-          url: "/_next/static/PH4pSfjLyyXSfo8j1Nb54/_buildManifest.js",
-          revision: "b78f2f95f712fdbfd1149569fa52161f",
-        },
-        {
-          url: "/_next/static/PH4pSfjLyyXSfo8j1Nb54/_ssgManifest.js",
-          revision: "b6652df95db52feb4daf4eca35380933",
+          revision: "66120c24555933d61642160339433e21",
         },
         {
           url: "/_next/static/chunks/132-34cdd22bd32de849.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/769-142089c863fe5f75.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/app/layout-11bea751ca697684.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
-          url: "/_next/static/chunks/app/page-405c4c84bae2cbb2.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          url: "/_next/static/chunks/app/page-730bd5b4eb68a9ca.js",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/bce60fc1-0f6ac35c65f9fb8b.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/framework-8883d1e9be70c3da.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/main-a11c2eb6622027af.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/main-app-7c88b42ed6ccbbe3.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/pages/_app-998b8fceeadee23e.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/pages/_error-e8b35f8a0cf92802.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
@@ -94,11 +86,19 @@ define(["./workbox-7c2a5a06"], function (e) {
         },
         {
           url: "/_next/static/chunks/webpack-394f997b1926787b.js",
-          revision: "PH4pSfjLyyXSfo8j1Nb54",
+          revision: "irlW5Mj27YXmVkd6fqD8N",
         },
         {
           url: "/_next/static/css/41d0d1a758d9d355.css",
           revision: "41d0d1a758d9d355",
+        },
+        {
+          url: "/_next/static/irlW5Mj27YXmVkd6fqD8N/_buildManifest.js",
+          revision: "b78f2f95f712fdbfd1149569fa52161f",
+        },
+        {
+          url: "/_next/static/irlW5Mj27YXmVkd6fqD8N/_ssgManifest.js",
+          revision: "b6652df95db52feb4daf4eca35380933",
         },
         {
           url: "/_next/static/media/2aaf0723e720e8b9-s.p.woff2",
@@ -130,7 +130,7 @@ define(["./workbox-7c2a5a06"], function (e) {
         },
         {
           url: "/assets/cv-FrenchKapilaJared.pdf",
-          revision: "d842bb3a8422ed44a7b4a0b140f6862b",
+          revision: "7be70393ab911071ab017e701956490d",
         },
         {
           url: "/assets/landingpage.png",
@@ -162,7 +162,7 @@ define(["./workbox-7c2a5a06"], function (e) {
           revision: "22ee34956c1a5eaf4a0d8de8bdbbd9da",
         },
         { url: "/jared.png", revision: "d74d405c7d7c8962e545a83c2d28b864" },
-        { url: "/manifest.json", revision: "73c51701236f29eff7bf1fd239d88ef8" },
+        { url: "/manifest.json", revision: "4229ad6d4a3f27a6c866543d73208cc7" },
         { url: "/next.svg", revision: "8e061864f388b47f33a1c3780831193e" },
         { url: "/vercel.svg", revision: "61c6b19abff40ea7acd577be818f3976" },
       ],
@@ -179,7 +179,7 @@ define(["./workbox-7c2a5a06"], function (e) {
               request: e,
               response: s,
               event: a,
-              state: n,
+              state: i,
             }) =>
               s && "opaqueredirect" === s.type
                 ? new Response(s.body, {

@@ -9,7 +9,7 @@ export default function About() {
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-          À Propos
+          <strong>À Propos</strong>
         </h2>
       </div>
       <div>
@@ -22,7 +22,7 @@ export default function About() {
             href="https://kadea.academy/"
             target="_blank"
           >
-            KADEA Academy
+            <strong>KADEA Academy</strong>
           </Link>
           . Et là j'ai appris les bases du développement web et mobile. Les
           exercices sous-formes de projets m'ont aidés à assimiler facilement
@@ -49,12 +49,12 @@ export default function About() {
           href="/assets/cv-FrenchKapilaJared.pdf"
         >
           <span>
-            <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+            <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
               Voir mon{" "}
             </span>
             <span className="whitespace-nowrap">
-              <span class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
-                CV
+              <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                <strong>CV</strong>
               </span>
             </span>
           </span>

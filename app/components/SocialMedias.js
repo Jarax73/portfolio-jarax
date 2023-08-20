@@ -38,7 +38,7 @@ export default function SocialMedias() {
           target="_blank"
           rel="noreferrer"
         >
-          <span class="sr-only">Facebook</span>
+          <span className="sr-only">Facebook</span>
           <FacebookIcon fontSize="medium" />
         </Link>
       </li>

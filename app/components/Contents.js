@@ -13,12 +13,11 @@ export default function Contents() {
       <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
         <p>
           J'ai travaillé à la création de ce portfolio en me basant sur le
-          travail de
+          travail de{" "}
           <Link
             className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
             href="https://brittanychiang.com/"
           >
-            {" "}
             Brittany Chiang
           </Link>
           , car je l'ai beaucoup apprécié.

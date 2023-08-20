@@ -11,7 +11,7 @@ export default function Projects() {
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-          Projets
+          <strong>Projets</strong>
         </h2>
       </div>
       <div>
@@ -28,7 +28,10 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    <span>Une application musicale basée sur Spotify</span>
+                    <span>
+                      Une <strong>application</strong> musicale basée sur
+                      Spotify
+                    </span>
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
@@ -60,7 +63,10 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    <span>Une application de test de niveau JavaScript</span>
+                    <span>
+                      Une <strong>application</strong> de test de niveau{" "}
+                      <strong>JavaScript</strong>
+                    </span>
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
@@ -100,7 +106,7 @@ export default function Projects() {
                   Pour comprendre et maîtriser le HTML et CSS. Il m'a été confié
                   une landing page que je devait représenter fidèlement. Il
                   fallait que la représentation puisse être identique à
-                  l'original. Elle devait aussi être accessible à différents
+                  l'original. Elle devait aussi être accessible pour différents
                   types d'écrans.
                 </p>
               </div>
