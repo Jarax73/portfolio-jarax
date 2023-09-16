@@ -11,6 +11,9 @@ module.exports = {
         blue: { black: "#03162B" },
         gray: { light: "#e5e7eb" },
       },
+      margin: {
+        minus: "-10px",
+      },
     },
   },
   corePlugins: {

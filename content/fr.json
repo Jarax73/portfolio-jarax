@@ -1,0 +1,27 @@
+{
+  "Index": {
+    "title": "Bonjour le monde!",
+    "fonction": "Développeur web et mobile",
+    "description": "Je conçois des applications web et mobiles accessibles pour tous types d'écrans.",
+    "about": "À Propos",
+    "project": "Projets",
+    "about1": "J'aime le développement informatique, et depuis longtemps, j'ai toujours cherché à me former dans ce domaine. Jusqu'à ce que je suis tombé sur une formation à la",
+    "about2": "Et là j'ai appris les bases du développement web et mobile. Les exercices sous-formes de projets m'ont aidés à assimiler facilement les nouvelles notions.",
+    "about3": "Grâce à cette formation, j'ai appris à ne pas se concentrer à une technologie donnée, mais plutôt à appréhender la logique derrière la technologie. Ainsi je ne serai pas esclave d'un outil.",
+    "about4": "Pour mon temps libre, j'aime apprendre sur les nouveautés dans le monde du développement.",
+    "about5": "Quand je ne suis pas devant mon laptop, je joue à la guitare ou je suis de la musique. J'aime aussi jouer au foot et suivre des series scientifiques",
+    "resumesee": "Voir mon",
+    "resume": "CV",
+    "project1": "Une application musicale basée sur Spotify",
+    "project1desc1": "Cette application, je l'ai créée dans le but de maîtriser la nouvelle technologie que je venais d'apprendre, Reactjs.",
+    "project1desc2": "J'ai aussi eu à m'exercer avec les APIs, grâce à l'API de Spotify que j'ai utilisé dans cette application.",
+    "project2": "Une application de test de niveau JavaScript",
+    "project2desc1": "Pour maîtriser les bases de JavaScript, j'ai eu à faire cet exercice, qui consistait à créer une SPA avec Vanilla JavaScript.",
+    "project2desc2": "L'application a pour but de tester le niveau élémentaire du langage par des questions qui ont un trait avec les bases du langage.",
+    "project3": "Représentation d'une landing page",
+    "project3desc": "Pour comprendre et maîtriser le HTML et CSS. Il m'a été confié une landing page que je devait représenter fidèlement. Il fallait que la représentation puisse être identique à l'original. Elle devait aussi être accessible pour différents types d'écrans.",
+    "footerdesc1": "J'ai travaillé à la création de ce portfolio en me basant sur le travail de",
+    "footerdesc2": "car je l'ai beaucoup apprécié.",
+    "footerdesc3": "Je vais prendre le temps dans l'avenir de designer mon propre modèle."
+  }
+}

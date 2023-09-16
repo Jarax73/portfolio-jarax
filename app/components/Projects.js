@@ -1,8 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Projects() {
+  const t = useTranslations("Index");
   return (
     <section
       id="projects"
@@ -11,7 +13,7 @@ export default function Projects() {
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-          <strong>Projets</strong>
+          <strong>{t("project")}</strong>
         </h2>
       </div>
       <div>
@@ -28,18 +30,13 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    <span>
-                      Une <strong>application</strong> musicale basée sur
-                      Spotify
-                    </span>
+                    <span>{t("project1")}</span>
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Cette application, je l'ai créée dans le but de maîtriser la
-                  nouvelle technologie que je venais d'apprendre, Reactjs.
+                  {t("project1desc1")}
                   <br />
-                  J'ai aussi eu à m'exercer avec les APIs, grâce à l'API de
-                  Spotify que j'ai utilisé dans cette application.
+                  {t("project1desc2")}
                 </p>
               </div>
               <Image
@@ -63,19 +60,12 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    <span>
-                      Une <strong>application</strong> de test de niveau{" "}
-                      <strong>JavaScript</strong>
-                    </span>
+                    <span>{t("project2")}</span>
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Pour maîtriser les bases de JavaScript, j'ai eu à faire cet
-                  exercice, qui consistait à créer une SPA avec Vanilla
-                  JavaScript. <br />
-                  L'application a pour but de tester le niveau élémentaire du
-                  langage par des questions qui ont un trait avec les bases du
-                  langage.
+                  {t("project2desc1")} <br />
+                  {t("project2desc2")}
                 </p>
               </div>
               <Image
@@ -99,15 +89,11 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    <span>Représentation d'une landing page</span>
+                    <span>{t("project3")}</span>
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Pour comprendre et maîtriser le HTML et CSS. Il m'a été confié
-                  une landing page que je devait représenter fidèlement. Il
-                  fallait que la représentation puisse être identique à
-                  l'original. Elle devait aussi être accessible pour différents
-                  types d'écrans.
+                  {t("project3desc")}
                 </p>
               </div>
               <Image

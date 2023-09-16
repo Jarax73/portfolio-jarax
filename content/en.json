@@ -1,0 +1,27 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "fonction": "Web and mobile Developer",
+    "description": "I design accessible web and mobile applications for all types of screens.",
+    "about": "About",
+    "project": "Projects",
+    "about1": "I love computer development, and for a long time I've been looking for training in this field. Until I came across a course at the",
+    "about2": "And there I learned the basics of web and mobile development. The exercises in the form of projects helped me to easily assimilate the new concepts.",
+    "about3": "Thanks to this training, I've learned not to concentrate on a given technology but rather to understand the logic behind the technology. So I won't be a slave of a tool",
+    "about4": "In my spare time, I like to learn what's new in development world.",
+    "about5": "When I'm not in front of my laptop, I'm playing guitar or following music. I also like to play soccer and follow scientific series",
+    "resumesee": "See my",
+    "resume": "Resume",
+    "project1": "A Spotify-based music application",
+    "project1desc1": "I created this application in order to master the new technology I'd just learned, Reactjs.",
+    "project1desc2": "I've also had some practice with APIs, thanks to the Spotify API I used in this application.",
+    "project2": "A JavaScript level-testing application",
+    "project2desc1": "To master the basics of JavaScript, I had to do this exercise, which involved creating an SPA with Vanilla JavaScript.",
+    "project2desc2": "The aim of the application is to test the elementary level of the language by asking questions related to the basics of the language.",
+    "project3": "Représentation of a landing page",
+    "project3desc": "To understand and master HTML and CSS. I was given a landing page to represent faithfully. The representation had to be identical to the original. It also had to be accessible for different screen types.",
+    "footerdesc1": "I worked on the creation of this portfolio based on the work of",
+    "footerdesc2": "because I really liked it.",
+    "footerdesc3": "In the future, I'll take the time to design my own model."
+  }
+}
