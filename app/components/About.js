@@ -35,7 +35,7 @@ export default function About() {
       </div>
       <div className="mt-12">
         <Link
-          className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
+          className="inline-flex items-center font-medium leading-tight text-slate-200 group"
           href={
             p === "/en"
               ? "/assets/cv-EnglishKapilaJared.pdf"
